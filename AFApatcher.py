@@ -75,10 +75,10 @@ for file in os.listdir(fileDir):
             elif delete and inceptionCount > 2:
                 newLine = ""
             # Change date that monuments are built to game start
-            elif "date" in line and "=" in line and "candidate" not in line:
+            elif "date" in line and "=" in line and inceptionCount == 1:
                 opening = line.index("=")
                 newLine += line[:opening+1]
-                newLine += " 1.01.01"
+                newLine += " 1.01.01\n"
             # If no changes are needed then the new line is the same as the old
             else: 
                 newLine = line
