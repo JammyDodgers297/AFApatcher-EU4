@@ -4,6 +4,8 @@ Script for removing culture/religion requirements for building/using EU4 monumen
 
 Please note that you must have Python installed in order to run the patcher: https://www.python.org/
 
+Please note: I would recommend not using this program on canals as it makes all canals start the game already built. Canal mounuments should be updated manually!
+
 ### To use: 
 1) Create a folder to put the patcher file in wherever is convenient for you (mine is on my desktop). 
 
